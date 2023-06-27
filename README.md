@@ -1,2 +1,3 @@
 # MommyMythra.github.io
-Website based upon owned domain
+Website designed for my academic and personal endeavors.
+It will contain a lot of everything. Very much so a W.I.P.
