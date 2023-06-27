@@ -1,0 +1,22 @@
+.MainBody {
+	width: 100%;
+	text-align: center;
+}
+
+.HeaderSpace {
+	width: 50%;
+	margin: auto;
+	padding: 3px;
+}
+
+.IntroSpace {
+	width: 50%;
+	margin: auto;
+	padding: 3px;
+}
+
+.SelfDetails {
+	width: 50%;
+	margin: auto;
+	padding: 3px;
+}
