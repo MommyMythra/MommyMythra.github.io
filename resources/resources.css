@@ -25,3 +25,21 @@
 .resource-related strong{color:var(--ink)}
 .resource-related a{color:var(--rose-light);text-decoration:underline;text-underline-offset:3px}
 .resource-related a:hover{color:var(--rose)}
+
+.resource-intro p {
+    font-size: 16px;
+}
+
+.resource-item > p:not(.resource-kind),
+.resource-door p {
+    font-size: 14px;
+}
+
+.resource-section > p,
+.resource-note {
+    font-size: 14px;
+}
+
+.resource-kind {
+    font-size: 11px;
+}

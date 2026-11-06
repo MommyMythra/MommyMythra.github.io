@@ -216,17 +216,30 @@ h1 em { display: block; padding-top: .08em; }
   .entry h3 { margin-top: 21px; }
 }
 
-/* Subtle readability adjustment */
+/* Subtle site-wide readability adjustments */
 body {
-    font-size: 16px; /* Previously 15px */
+    font-size: 16px;
+}
+
+.main-nav a {
+    font-size: 13px;
 }
 
 .room p,
-.entry p,
 .project p,
-.intro-text p,
-.resident-bio p,
-.resource-intro p,
-.resource-item > p:not(.resource-kind) {
+.entry p,
+.archive-note p {
     font-size: 14px;
+}
+
+.intro-text p,
+.about-copy p {
+    font-size: 16px;
+}
+
+.room-number,
+.entry-top,
+.project-meta,
+.eyebrow {
+    font-size: 11px;
 }
