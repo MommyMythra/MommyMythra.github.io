@@ -1,0 +1,21 @@
+/* The Resource Wing: additions to the Mansion’s existing stylesheet */
+.resource-page{padding-top:35px;padding-bottom:90px;min-height:70vh}
+.resource-breadcrumb{font-size:11px;color:var(--dim);display:flex;gap:12px;flex-wrap:wrap}.resource-breadcrumb a{color:var(--rose)}
+.resource-hero{padding:78px 0 32px;border-bottom:1px solid var(--edge)}
+.resource-hero h1{font:500 clamp(56px,8vw,100px)/1.01 var(--serif);max-width:920px;margin:0 0 18px;letter-spacing:-.035em}
+.resource-hero h1 em{display:inline;color:var(--rose)}.resource-deck{font:italic 400 clamp(24px,3vw,36px)/1.18 var(--serif);color:#e4c1ce;max-width:740px;margin:0}
+.resource-intro{max-width:830px;padding:38px 0 5px}.resource-intro p{font-size:15px;line-height:1.83;color:var(--muted);margin-bottom:18px}
+.resource-actions{display:flex;gap:13px;flex-wrap:wrap;margin:17px 0 36px}.resource-action{border:1px solid var(--edge);padding:8px 15px;font-size:12px;color:var(--rose)}.resource-action:hover{border-color:var(--rose)}
+.resource-section{margin:65px 0}.resource-section h2{font:500 clamp(36px,5vw,52px)/1.05 var(--serif);margin:0 0 9px}.resource-section>p{color:var(--muted);font-size:13px;max-width:740px;margin-bottom:23px}
+.resource-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.resource-item{border:1px solid var(--edge);padding:25px;background:rgba(33,23,32,.64);display:flex;flex-direction:column;min-height:220px}
+.resource-kind{color:var(--rose);font:700 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;margin:0 0 13px}
+.resource-item h3{font:500 29px/1.07 var(--serif);margin:0 0 10px}.resource-item>p:not(.resource-kind){font-size:12px;color:var(--muted);line-height:1.8;flex:1}
+.resource-item>a{color:var(--rose);font-size:12px;border-top:1px solid var(--edge);padding-top:14px;margin-top:16px}.resource-item>a:hover{color:var(--rose-light)}
+.resource-note{border-left:2px solid var(--rose);background:var(--bg-raised);padding:20px 23px;margin:52px 0 26px;font-size:13px;color:var(--muted)}
+.resource-note strong{color:var(--ink)}.resource-date{font-size:11px;color:var(--dim);margin-top:36px}.resource-footer-link{display:inline-flex;margin-top:22px;color:var(--rose);font-size:12px;border-bottom:1px solid rgba(217,163,181,.45)}
+.resource-doors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:31px}
+.resource-door{border:1px solid var(--edge);padding:28px 22px;min-height:245px;background:rgba(33,23,32,.65);transition:background .2s,border-color .2s}
+.resource-door:hover{background:var(--panel-hover);border-color:var(--rose)}.resource-door .eyebrow{font-size:10px;margin-bottom:28px}.resource-door h2{font:500 40px/1.02 var(--serif);margin:0 0 13px}.resource-door p{color:var(--muted);font-size:12px}.resource-door span{color:var(--rose);font-size:13px}
+@media(max-width:900px){.resource-doors{grid-template-columns:1fr}.resource-door{min-height:0}.resource-list{grid-template-columns:1fr}}
+@media(max-width:570px){.resource-hero{padding:58px 0 28px}.resource-page{padding-bottom:65px}.resource-item{min-height:0}.resource-hero h1{font-size:58px}}
