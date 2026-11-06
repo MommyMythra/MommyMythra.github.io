@@ -215,3 +215,18 @@ h1 em { display: block; padding-top: .08em; }
   .collection + .collection { margin-top: 56px; }
   .entry h3 { margin-top: 21px; }
 }
+
+/* Subtle readability adjustment */
+body {
+    font-size: 16px; /* Previously 15px */
+}
+
+.room p,
+.entry p,
+.project p,
+.intro-text p,
+.resident-bio p,
+.resource-intro p,
+.resource-item > p:not(.resource-kind) {
+    font-size: 14px;
+}
